@@ -40,8 +40,8 @@ extra_features = {
 
 # Add the distributable files
 file_map = [
-    ('/etc/bash_completion.d', 'ytmdl.bash'),
-    ('/usr/share/zsh/functions/Completion/Unix', 'ytmdl.zsh')
+    ('etc/bash_completion.d', 'ytmdl.bash'),
+    ('usr/share/zsh/functions/Completion/Unix', 'ytmdl.zsh')
 ]
 
 data_files = []
@@ -85,4 +85,5 @@ if __name__ == '__main__':
         install_requires=req_pkgs,
         setup_requires=req_pkgs,
         extras_require=extra_features,
+        **params
     )

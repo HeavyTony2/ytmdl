@@ -1,0 +1,42 @@
+name: test
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+
+   # Core dependencies
+   - bs4
+   - colorama
+   - downloader-cli
+   - ffmpeg-python
+   - itunespy
+   - musicbrainzngs
+   - mutagen
+   - pydes
+   - pysocks
+   - python
+   - pyxdg
+   - requests
+   - rich
+   - simber
+   - spotipy
+   - unidecode
+   - urllib3
+   - youtube-dl
+   - youtube-search-python
+   - ytmusicapi
+
+
+
+    # Testing
+  - pytest
+  - pytest-cov
+  - codecov
+  - pip
+
+    # Development
+  - isort
+  - black
+  - flake8

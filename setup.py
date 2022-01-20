@@ -65,7 +65,7 @@ if name == 'nt':
 if __name__ == '__main__':
     setuptools.setup(
         name="ytmdl",
-        version="2021.11.07",
+        version=__version__,
         author="Deepjyoti Barman",
         author_email="deep.barma30@gmail.com",
         description="Youtube Music Downloader",

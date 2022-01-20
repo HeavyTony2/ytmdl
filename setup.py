@@ -85,5 +85,4 @@ if __name__ == '__main__':
         install_requires=req_pkgs,
         setup_requires=req_pkgs,
         extras_require=extra_features,
-        **params
     )

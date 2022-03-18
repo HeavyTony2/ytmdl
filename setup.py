@@ -16,7 +16,7 @@ req_pkgs = [
     'itunespy',
     'requests',
     'colorama',
-    'beautifulsoup4',
+    'bs4',
     'downloader-cli',
     'pyxdg',
     'ffmpeg-python',
